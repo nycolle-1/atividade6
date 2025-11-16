@@ -1,0 +1,99 @@
+
+body {
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    background: #f2f5f9;
+    color: #333;
+}
+
+
+h1 {
+    font-weight: 600;
+    color: #222;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+}
+
+/* ------------------------------------------------------- */
+.card-header {
+    background: #2dfd0d;
+    color: white;
+    font-weight: 500;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* ------------------------------------------------------- */
+.btn-primary {
+    background: #069a4d;
+    border: none;
+}
+
+.btn-primary:hover {
+    background: #069a4d;
+}
+
+.btn-warning {
+    background: #f0ad4e;
+    border: none;
+}
+
+.btn-warning:hover {
+    background: #ec9a27;
+}
+
+.btn-danger {
+    background: #d9534f;
+    border: none;
+}
+
+.btn-danger:hover {
+    background: #c9302c;
+}
+
+.btn-secondary {
+    background: #6c757d;
+    border: none;
+}
+
+/* ------------------------------------------------------- */
+.form-control {
+    border-radius: 6px;
+    border: 1px solid #ced4da;
+}
+
+.form-control:focus {
+    border-color: #0dfd99;
+    box-shadow: 0 0 4px rgba(34, 86, 0, 0.3);
+}
+
+/* ------------------------------------------------------- */
+table {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table thead {
+    background: #0eeb06;
+    color: white;
+}
+
+table tbody tr:hover {
+    background: #e7f1ff;
+}
+
+
+button,
+.form-control {
+    transition: 0.2s;
+}
+/* ------------------------------------------------------- */
+
+.container {
+    padding-bottom: 40px;
+}
